@@ -14,37 +14,44 @@ markdown
 
 Репозиторий https://github.com/Kurtyanik/LR6 скопирован в личное хранилище через кнопку Fork.
 
-![Fork](screenshots/fork.png)
+<img width="1142" height="506" alt="dghfgh" src="https://github.com/user-attachments/assets/98a936e5-81b8-4825-9c3b-6778582cb681" />
+
 
 ### 2. Установка и настройка Git
 
 Git установлен на компьютер. В настройках клиента указаны имя пользователя в требуемом формате и email. Личный репозиторий склонирован на компьютер.
 
-![Настройка и клонирование](screenshots/config_clone.png)
+<img width="497" height="223" alt="fghjfj" src="https://github.com/user-attachments/assets/5ad613eb-96a7-4bfa-8928-aa013a4bf1c6" />
+
 
 ### 3. Подтягивание изменений и история
 
 Через веб-интерфейс GitHub в ветку master был добавлен файл text.txt. Изменения подтянуты в локальный репозиторий командой git pull. Выведена история коммитов и просмотрены последние изменения.
 
-![История и изменения](screenshots/history.png)
+<img width="620" height="684" alt="fghfhfgh" src="https://github.com/user-attachments/assets/8381bbb4-a531-4e81-a9ce-7ddeb69938f8" />
+
 
 ### 4. Слияние с конфликтом
 
 Была создана локальная ветка feature, в которой изменён файл text.txt. В ветке master этот же файл также был изменён. При слиянии ветки feature в master возник конфликт, который был успешно разрешён вручную. После коммита слияния побочная ветка feature удалена.
 
-![Конфликт при слиянии](screenshots/conflict.png)
+<img width="319" height="311" alt="ghjgjjgj" src="https://github.com/user-attachments/assets/5d94a9a2-69be-40fd-b92d-1be5e98bab50" />
+
 
 ### 5. Коммиты и откат
 
 В файл text.txt были добавлены новые строки с отдельными коммитами. Последний коммит отменён командой git revert, которая создаёт новый коммит с обратными изменениями, сохраняя историю. Для оформления отчёта создана ветка report.
 
-![Откат и ветка report](screenshots/revert.png)
+<img width="385" height="410" alt="dfgdgdg" src="https://github.com/user-attachments/assets/4f121c85-f801-4f14-b4fb-1370b285a4f2" />
+
 
 ### 6. Публикация отчёта
 
 Ветка report со всеми изменениями и файлами скриншотов успешно отправлена в удалённый репозиторий на GitHub.
 
-![Итог на GitHub](screenshots/github_report.png)
+<img width="437" height="406" alt="fghfhfh" src="https://github.com/user-attachments/assets/53bbe0a3-d2fa-455b-b1ef-622936f9d10f" />
+
+
 
 ## Лог команд
 
